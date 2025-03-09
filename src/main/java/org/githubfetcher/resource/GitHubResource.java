@@ -19,8 +19,10 @@ public class GitHubResource {
 
     @GET
     @Path("/{username}")
-    @Produces(MediaType.SERVER_SENT_EVENTS)
+    @Produces(MediaType.APPLICATION_JSON)
     public Multi<GitHubRepository> getUserRepositories(@PathParam("username") String username) {
         return gitHubService.getRepositories(username);
     }
+
+
 }

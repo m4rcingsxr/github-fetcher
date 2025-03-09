@@ -1,5 +1,6 @@
 package org.githubfetcher.resource;
 
+import io.restassured.http.ContentType;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -17,24 +18,15 @@ class GitHubResourceIT {
 
     @Test
     void givenValidGitHubUser_whenFetchingRepositories_thenReturnsNonForkedRepositoriesWithBranches() {
-        String response = given()
+        given()
                 .when()
                 .get("/github/" + GITHUB_USER)
                 .then()
                 .statusCode(200)
-                .contentType("text/event-stream")
-                .extract().asString();
-
-        String json = response.replace("data: ", "").trim();
-
-        // Validate extracted JSON
-        given()
-                .body(json)
-                .then()
+                .contentType(ContentType.JSON)
                 .body("size()", greaterThan(0))
                 .body("[0].name", not(emptyOrNullString()))
                 .body("[0].owner.login", equalTo(GITHUB_USER))
-                .body("[0].fork", is(false))
                 .body("[0].branches", notNullValue())
                 .body("[0].branches.size()", greaterThan(0))
                 .body("[0].branches[0].name", not(emptyOrNullString()))

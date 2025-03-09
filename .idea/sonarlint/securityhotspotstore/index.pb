@@ -29,3 +29,5 @@ p
 @src/test/java/org/githubfetcher/resource/GitHubResourceTest.java,4/a/4a892109eb64193fa8635d4aa5ec126ab200d0be
 n
 >src/test/java/org/githubfetcher/resource/GitHubResourceIT.java,5/1/518fc46af213fc27e7f6a5850b053245094795f8
+l
+<src/main/java/org/githubfetcher/GitHubAuthHeaderFactory.java,a/d/adc5493c78eab6581638b1b81f4db5db57b5267a
