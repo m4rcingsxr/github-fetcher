@@ -1,0 +1,8 @@
+quarkus:
+  rest-client:
+    github-api:
+      url: https://api.github.com
+  live-reload:
+    enabled: true
+  devservices:
+    enabled: true
