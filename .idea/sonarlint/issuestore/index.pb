@@ -25,3 +25,7 @@ l
 <src/main/java/org/githubfetcher/resource/GitHubResource.java,6/9/69fa88d7d799dafb213e3cddf554948fcc228f32
 |
 Lsrc/main/java/org/githubfetcher/exception/WebApplicationExceptionMapper.java,f/7/f7efc79a08c43285e64087ef43f5f8919de24dfb
+p
+@src/test/java/org/githubfetcher/resource/GitHubResourceTest.java,4/a/4a892109eb64193fa8635d4aa5ec126ab200d0be
+n
+>src/test/java/org/githubfetcher/resource/GitHubResourceIT.java,5/1/518fc46af213fc27e7f6a5850b053245094795f8
