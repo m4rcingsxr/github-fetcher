@@ -2,12 +2,14 @@ package org.githubfetcher.service;
 
 import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
+import jakarta.enterprise.context.ApplicationScoped;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 import org.githubfetcher.client.GitHubReactiveClient;
 import org.githubfetcher.dto.GitHubRepository;
 
 import java.util.List;
 
+@ApplicationScoped
 public class GitHubReactiveService {
 
     private final GitHubReactiveClient gitHubApiClient;

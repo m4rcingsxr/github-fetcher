@@ -21,3 +21,5 @@ p
 .dockerignore,0/5/05a721ebe3ba0754116825ed1359ff1785f4bbac
 r
 Bsrc/main/java/org/githubfetcher/service/GitHubReactiveService.java,4/d/4d2ff2f09241f0be234b2b96d7eb1730a1c014e5
+l
+<src/main/java/org/githubfetcher/resource/GitHubResource.java,6/9/69fa88d7d799dafb213e3cddf554948fcc228f32
