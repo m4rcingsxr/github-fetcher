@@ -1,0 +1,9 @@
+org/githubfetcher/dto/GitHubRepository.class
+org/githubfetcher/dto/GitHubCommit.class
+org/githubfetcher/client/GitHubReactiveClient.class
+org/githubfetcher/exception/WebApplicationExceptionMapper.class
+org/githubfetcher/dto/GitHubBranch.class
+org/githubfetcher/dto/GitHubOwner.class
+org/githubfetcher/resource/GitHubResource.class
+org/githubfetcher/dto/ErrorResponse.class
+org/githubfetcher/service/GitHubReactiveService.class
