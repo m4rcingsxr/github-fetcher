@@ -66,12 +66,12 @@ java -jar target/quarkus-app/quarkus-run.jar
 ### Running Integration Tests
 
 ```
-mvn test
+mvn failsafe:integration-test failsafe:verify -DskipITs=false
 ```
 
 To run integration tests with a custom GitHub username:
 
 ```
-mvn test -Dgithub.test.username=your-github-username
+mvn failsafe:integration-test failsafe:verify -DskipITs=false -Dgithub.test.username=your-github-username
 ```
 

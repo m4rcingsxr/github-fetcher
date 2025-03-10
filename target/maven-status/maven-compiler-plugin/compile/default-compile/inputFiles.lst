@@ -1,9 +1,0 @@
-/home/m4rcingsxr/Desktop/github-fetcher/src/main/java/org/githubfetcher/client/GitHubReactiveClient.java
-/home/m4rcingsxr/Desktop/github-fetcher/src/main/java/org/githubfetcher/dto/ErrorResponse.java
-/home/m4rcingsxr/Desktop/github-fetcher/src/main/java/org/githubfetcher/dto/GitHubBranch.java
-/home/m4rcingsxr/Desktop/github-fetcher/src/main/java/org/githubfetcher/dto/GitHubCommit.java
-/home/m4rcingsxr/Desktop/github-fetcher/src/main/java/org/githubfetcher/dto/GitHubOwner.java
-/home/m4rcingsxr/Desktop/github-fetcher/src/main/java/org/githubfetcher/dto/GitHubRepository.java
-/home/m4rcingsxr/Desktop/github-fetcher/src/main/java/org/githubfetcher/exception/WebApplicationExceptionMapper.java
-/home/m4rcingsxr/Desktop/github-fetcher/src/main/java/org/githubfetcher/resource/GitHubResource.java
-/home/m4rcingsxr/Desktop/github-fetcher/src/main/java/org/githubfetcher/service/GitHubReactiveService.java
